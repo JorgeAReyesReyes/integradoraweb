@@ -1,15 +1,13 @@
 {
   "compilerOptions": {
     "target": "ES2020",
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "module": "CommonJS",
     "rootDir": "./src",
     "outDir": "./dist",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
     "strict": true,
+    "esModuleInterop": true,
     "skipLibCheck": true
   },
-  "include": ["src", "../frontend/src/modulos/DatosEmporia.ts", "../frontend/src/api"],
+  "include": ["src"],
   "exclude": ["node_modules"]
 }
